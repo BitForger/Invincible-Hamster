@@ -1,183 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Standard Meta -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Cyb3rwarri0r8.github.io - Modding for the Community</title>
-    
-    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/material.css">
-    <link rel="stylesheet" href="assets/css/icons-material-design.css">
-    <link rel="stylesheet" href="assets/css/meterial-wfont.css">
-    <link rel="stylesheet" href="assets/css/ripples.css">
-    <link href="//fezvrasta.github.io/snackbarjs/dist/snackbar.min.css" rel="stylesheet">
-    
-    <!--     Font Awesome     -->
-    <link href="bootstrap3/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <!-- Brand Buttons -->
-    <link rel="stylesheet" href="bootstrap3/css/brand-buttons.min.css">
-    <link rel="stylesheet" href="bootstrap3/css/brand-buttons-inversed.min.css">
-    
-  
+    <!-- Site Properities -->
+    <title>Homepage Example - Semantic</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/semantic.css">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+    <script src="assets/semantic.js"></script>
+    <style type="text/css">
+        /*
+        #home{
+            padding-left: 5em;
+            padding-right: 5em;
+            padding-bottom: 3.5em;
+            padding-top: 3.5em;
+        }
+*/
+    </style>
 </head>
 
-<body>
-    <div class="navbar navbar-default">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="http://Cyb3rwarri0r8.github.io">Cyb3rwarri0r8</a>
-    </div>
-    <div class="navbar-collapse collapse navbar-responsive-collapse">
-        <ul class="nav navbar-nav">
-            <li><a href="http://Cyb3rwarri0r8.github.io">Home</a></li>
-            <li><a href="http://Cyb3rwarri0r8.github.io/about.html">About Me</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Computercraft <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="http://Cyb3rwarri0r8.github.io/ccmc.html">ComputerCraft Missile Control(CCMC)</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Minecraft Mods <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="http://Cyb3rwarri0r8.github.io/CommuMod/">CommuMod</a></li>
-                    <li><a href="http://Cyb3rwarri0r8.github.io/Fried-Chicken-Bacon/">Fried Chicken & Bacon Mod</a></li>
-                    <li class="active"><a href="http://Cyb3rwarri0r8.github.io/Invincible-Hamster/">Invincible Hamster Mod</a></li>
-                </ul>
-            </li>
-        </ul>
-        <!-- <form class="navbar-form navbar-left">
-            <input type="text" class="form-control col-lg-8" placeholder="Search">
-        </form> -->
-        <!-- <ul class="nav navbar-nav navbar-right">
-            <li><a href="javascript:void(0)">Link</a></li>
-        </ul> -->
-    </div>
-</div>
-	<div class="main">
-		<div class="container">
-			<h1>Invincible Hamster Mod</h1>
-			<p></p>
-		</div>
-	</div>
-<footer class="navbar-fixed-bottom">
-        <div class="col-md-4" style="padding:20px;" align="center">
-        <h4 align="center">Thanks for visiting!</h4>
-        <div class="hline-w"></div>
-        <p>Hi guys! Thanks for checking out my website! If you want to stay up-to-date with my progress with the mods or other projects follow my twitter or github account with the links to the right.</p>
+<body id="home">
+
+    <div class="ui masthead segment">
+        <div class="ui centered page grid">
+            <div class="sixteen wide column">
+                <div class="ui inverted blue menu">
+
+                    <a class="header item" href="http://cyb3rwarri0r8.github.io">
+                        Cyb3rwarri0r8 Coding
+                    </a>
+                    <a href="about.html" class="item">About Me</a>
+                    <div class="ui pointing dropdown link item" tabindex="-1">
+                        <i class="dropdown icon" tabindex="0"></i>
+                        <span class="text">Modding Projects</span>
+                        <div class="menu" tabindex="-1">
+                            <a class="item" href="http://cyb3rwarri0r8.github.io/Commumod">CommuMod</a>
+                            <a href="http://cyb3rwarri0r8.github.io/Better-Foods/" class="item">Better Foods</a>
+                            <a href="http://cyb3rwarri0r8.github.io/Invincible-Hamster" class="item">Invincible Hamster</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4" id="foot" style="padding:20px;" align="center">
-            <h4 align="center" style="">Contact me @</h4>
-            <div class="hline-w"></div>
-            <span class="gh-wrap">
-            <a href="https://github.com/Cyb3rwarri0r8">
-                <button class="btn btn-github btn-m">
-                    <i class="fa fa-github fa-m">Github</i>
-                </button>
-            </a>
-            </span>
-
-            <span class="tw-wrap">
-            <a href="https://twitter.com/Cyb3rwarri0r8">
-                <button class="btn btn-twitter btn-m">
-                    <i class="fa fa-twitter fa-m">Twitter</i>
-                </button>
-            </a>
-            </span>
-        </div>
-        <div class="col-md-4" style="padding:20px;" align="center">
-            <h4 align="center">Thanks for visiting!</h4>
-        <div class="hline-w"></div>
-        <p>Hi guys! Thanks for checking out my website! If you want to stay up-to-date with my progress with the mods or other projects follow my twitter or github account with the links to the right.</p>
-        </div>
-    </footer>
-            <!--
-                <br>
-                <button type="button" class="btn btn-info">This is a button</button>
-            -->
-        </div>    
     </div>
-    
+    <!--    Main page section -->
+    <div class="ui vertical segment">
+        <div class="ui centered page grid">
+            <div class="fourteen wide column">
+                <h1>
+                    <img src="https://d2oawfjgoy88bd.cloudfront.net/520267e42cdcf276fb4f1aab/520268002cdcf276fb4f1abb/540e360ec38aa56324c0d680.png?Expires=1418850877&Signature=PhVth~MYt1TUs2HCKi~PpPaoBOIE5uZWKqeRIm4rB4nQDHw7dHfzkZQaRmcb3quYAMykWbjz5nPiCkYVKfR0wh3i2jkpLmy3vOxIhIS55bgUP53B3cEDYvNYYi6GcmC6Rlq4Ikl6qMpsIwLYul54ZuYitjBxXEK7-s-k-tRBz7dv671aCz-rtD1cTrLSrz7iYI6ptigMCqAZD26Sz64idUqv9HoPBxgmcRJSghgbqUyUS07W0hA0dBu269IeVxD3laTSj5GIAEYH-cfKkcH6869KjOAd24mSoAzh20iQk0WtKb4Gwtl66eG2SgN-iN7eoFcwrAOE6AXtiingI7oJKg__&Key-Pair-Id=APKAJHEJJBIZWFB73RSA" alt="">
+                </h1>
+                <p>This particular mod lets hamsters spawn in your world. When you tame them with flowers, they become invincible hamsters, with a never ending hate for iron bars. I am maintaining the mod that <a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1276287-ivorius-mods-structures-dungeons-drugs-statues" target="">Ivorius</a> started from now on.</p>
+                <p>Downloads are available here:</p>
+                <iframe src="http://widget.mcf.li/mc-mods/minecraft/224147-invincible-hamster-mod?version=1.7.10" width="100%" style="border:none"></iframe>
+                <p>Mods.io <a href="https://mods.io/mods/1100-invincible-hamster-mod" target="">mirror</a>
+                </p>
+                <div class="ui hidden divider"></div>
+                <h2>Permission to redistribute/update from Ivorius:</h2>
+                <div class="ui standard button" onclick="licenseModal()">
+                    Show License
+                </div>
+                <div class="ui modal">
+                    <i class="close icon"></i>
+                    <div class="header">License</div>
+                    <div class="content">
+                        <div class="description">
+                            <div class="ui header">Ivorius' Permision to update.</div>
+                            <pre>
+                                <code>
+                                    <center>DO WHAT THE **** YOU WANT TO PUBLIC LICENSE</center> <br>
+Version 2, December 2004 <br>
 
-</body>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-        <script>
-            (function(){
+Copyright (C) 2014 Lukas Tenbrink &lt;lukastenbrink@gmail.com&gt; <br>
 
-                var $button = $("<div id='source-button' class='btn btn-primary btn-xs'>&lt; &gt;</div>").click(function(){
-                    var index =  $('.bs-component').index( $(this).parent() );
-                    console.log(index);
-                    $.get(window.location.href, function(data){
-                        var html = $(data).find('.bs-component').eq(index).html();
-                        html = cleanSource(html);
-                        $("#source-modal pre").text(html);
-                        $("#source-modal").modal();
-                    })
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed. <br>
 
-                });
+DO WHAT THE **** YOU WANT TO PUBLIC LICENSE
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION <br>
 
-                $('.bs-component [data-toggle="popover"]').popover();
-                $('.bs-component [data-toggle="tooltip"]').tooltip();
+0. You just DO WHAT THE **** YOU WANT TO.
+                                </code>
+                            </pre>
+                        </div>
 
-                $(".bs-component").hover(function(){
-                    $(this).append($button);
-                    $button.show();
-                }, function(){
-                    $button.hide();
-                });
+                    </div>
+                    <div class="actions">
+                        <div class="ui positive right labeled icon button">
+                            Okay!
+                            <i class="checkmark icon"></i>
+                        </div>
+                    </div>
+                </div>
 
-                function cleanSource(html) {
-                    var lines = html.split(/\n/);
-
-                    lines.shift();
-                    lines.splice(-1, 1);
-
-                    var indentSize = lines[0].length - lines[0].trim().length,
-                        re = new RegExp(" {" + indentSize + "}");
-
-                    lines = lines.map(function(line){
-                        if (line.match(re)) {
-                            line = line.substring(indentSize);
-                        }
-
-                        return line;
+            </div>
+        </div>
+    </div>
+    <!--    Footer Section -->
+    <div class="ui inverted footer vertical segment">
+        <div class="ui centered page grid">
+            <div class="four wide column">
+                <h3>Thanks for visiting!</h3>
+                <p>If you have any pointers on any of my work or would like for me to do some work for you please use my twitter link to the left.</p>
+            </div>
+            <div class="four wide column">
+                <h3>Contact Me:</h3>
+                <a href="http://twitter.com/kaminocoding">
+                    <div class="ui inverted blue button">
+                        <i class="twitter icon"></i> Twitter
+                    </div>
+                </a>
+                <p></p>
+                <a href="https://github.com/cyb3rwarri0r8">
+                    <div class="ui inverted button">
+                        <i class="github icon"></i> Github
+                    </div>
+                </a>
+            </div>
+            <div class="five wide column">
+                <h3>Mod update requests?</h3>
+                <p>If you want to see a mod updated send me a link to the mod using either of the below options:</p>
+                <div class="ui buttons">
+                    <a href="http://twitter.com/kaminocoding">
+                        <div class="ui blue button">
+                            Twitter
+                        </div>
+                    </a>
+                    <div class="or"></div>
+                    <a href="http://www.minecraftforum.net/private-messages/send?recipient=Cyb3rWarri0r8">
+                        <div class="ui positive button">
+                            MinecraftForum
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document)
+            .ready(function () {
+                $('.ui.dropdown')
+                    .dropdown();
+                $('.ui.inverted.blue.menu .dropdown')
+                    .dropdown({
+                        on: 'hover'
                     });
 
-                    lines = lines.join("\n");
-
-                    return lines;
-                }
-
-                $(".icons-material .icon").each(function() {
-                    $(this).after("<br><br><code>" + $(this).attr("class").replace("icon ", "") + "</code>");
-                });
-
-            })();
-
-        </script>
-        <script src="assets/js/ripples.js"></script>
-        <script src="assets/js/material.js"></script>
-        <script src="//fezvrasta.github.io/snackbarjs/dist/snackbar.min.js"></script>
-
-
-        <script src="assets/js/jquery.nouislider.min.js"></script>
-        <script>
-            $(function() {
-                $(".slider").noUiSlider({
-                    start: 40,
-                    connect: "lower",
-                    range: {
-                        min: 0,
-                        max: 100
-                    }
-                });
             });
-        </script>
+        function licenseModal(){
+            $('.modal')
+                .modal('show');
+        }
+    </script>
+
+</body>
 </html>
